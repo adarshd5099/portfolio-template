@@ -1,0 +1,279 @@
+.over{
+  display: flex;
+  align-items: center;
+  justify-content: center;*/
+  font-weight: bold;
+  width: 100%;
+  height: 90vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.over{
+  background-repeat:no-repeat;
+  background-image: url(../img/3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.over h1{
+  font-weight: bold;
+  font-family: roboto;
+  color: white;
+  display: block;
+  text-align:right;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px black; 
+ animation: move 0.5s ease-in;
+ animation-fill-mode: forwards;
+/*margin-right: 300px;*/
+
+}
+
+
+@keyframes move {
+  from { 
+    margin-right: 0%;
+    opacity: 50%;
+   }
+  to { 
+    margin-right: 30%;
+    opacity: 100%;
+  }
+}
+
+.over p{
+  font-weight: bold;
+  font-family: roboto;
+  color: white;
+  display: block;
+  font-weight: 300;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+   animation: fade 0.5s ease-in;
+
+
+}
+
+@keyframes fade {
+
+  from{opacity: 10%;}
+  to{opacity: 100%;}
+}
+
+
+.about{
+  padding-top: 7vh;
+}
+
+.about .about-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  text-align:center;
+  padding-bottom: 7vh;
+
+}
+
+.about-quote{
+
+    font-size: 40px;
+    /*font-family: roboto;*/
+      font-family: 'Montserrat', sans-serif;
+   font-weight: 200;
+   padding-left: 5%;
+   padding-top: 5%;
+  font-style: italic;
+  /*letter-spacing: 0.12em;*/
+
+    
+}
+
+.about-text{
+   padding-top:8%;
+   padding-bottom: 40%;
+   font-family: roboto;
+   font-weight: 300;
+    font-size: 17px;
+    letter-spacing: .05px;
+    font-style: italic;
+    
+}
+
+.over2{
+  background-repeat:no-repeat;
+  background-image: url(../img/4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  height: 50vh;
+}
+
+.service{
+  padding-bottom: 10%;
+}
+
+.service-heading{
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align:center;
+  padding-bottom: 7vh;
+  padding-top: 7vh;
+  text-transform: uppercase;
+
+}
+
+.service-item{
+  border: 1px solid #d6d6d6;
+  text-align: center;
+  padding: 5vh 5vh 5vh 5vh;
+  font-family: 'Montserrat', sans-serif;
+  /*justify-content: center;*/
+}
+
+.service-item:hover{
+  border: 1.5px solid  #a520c7;
+  transition:.3s ease-in;
+}
+
+.service-icon {
+  color: #a520c7;
+  font-size: 60px;
+
+}
+
+.service-item h2{
+  padding-top: 3vh;
+  font-size: 40px;
+   font-weight: 200;
+   padding-left: 5%;
+   padding-top: 3%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.port-img{
+  padding-bottom: 10vh;
+  transition:.3s ease-in;
+
+}
+
+.port-img:hover{
+
+  opacity: 80%;
+  transition:.5s ease-in;
+  transform:scale(1.07);
+  color:black;
+
+}
+
+.port .port-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  text-align:center;
+  padding-bottom: 7vh;
+  padding-top: 5vh;
+
+}
+
+
+.footer{
+  padding: 15vh 10vh 15vh 10vh;
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+  /*background-color: rgb(165, 32, 199);*/
+}
+
+.footer ul,p {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.footer ul li{
+  line-height: 2;
+}
+.footer ul li i{
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.social{
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+    font-size: 34px;
+    text-align:center;
+}
+
+.social div a{
+  text-decoration: none;
+  color: black;
+}
+
+.s-icon{
+/*  margin-left: 2%;
+  margin-top:2%;
+  padding: 0 2% 0 2%;
+  line-height: 1;
+*/
+    /*background: content-box;*/
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin: 2%;
+    margin-bottom: 20px;
+}
+
+
+#i1:hover{
+  color: #3b5998 ;
+  transition: 0.2s ease-in;
+} 
+
+#i2:hover{
+  color: #00acee ;
+  transition: 0.2s ease-in;
+} 
+
+
+#i3:hover{
+  color: #a520c7 ;
+  transition: 0.2s ease-in;
+} 
+
+
+#i4:hover{
+  color: #ef8236 ;
+  transition: 0.2s ease-in;
+} 
+
+
+#i5:hover{
+  color: #FF4301 ;
+  transition: 0.2s ease-in;
+} 
+
+.dev p{
+  font-weight: 100;
+}
+
+.dev i{
+    color:#e600bf;
+}
+ .dev a{
+    text-decoration: none;
+    color:#a520c7;
+ }
+
