@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+<!-- 	css links -->
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles/index.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+<!-- javascript links -->
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/31088415dd.js" crossorigin="anonymous"></script>
+<script src="./scripts/index.js"></script>
+	<title>Portfolio</title>
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">	
+
+  <a class="navbar-brand" href="#iabout">Hanna Davson</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#iservice">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#iport">Portfolio</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+
+    </ul>
+    <span class="navbar-text">
+     Welcome
+    </span>
+  </div>
+</nav>
+
+
+	<div class="over">
+		<div>
+				<h1>Hannah Davson</h1> 
+				<p class="px-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.It is a long established fact that a reader will be distracted.</p>
+		</div>
+	
+	</div>
+	
+
+	<!-- start of about me block	 -->
+
+	<div id="iabout" class="about">
+		<div class="about-title">
+			<p>About Me</p>
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+			   	<div class="col-sm-5 col-md-6 col-lg-6">
+			      <img class="img-fluid" alt="Responsive image" src="./img/about.jpg">
+			    </div>
+			    <div class="col-sm-7 col-md-6 col-lg-6">
+			     	<div>
+			     		<p class="about-quote">My Quote</p>
+			     		 <p class="about-text">
+			      			&quot; Now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). &quot;
+
+			     		 </p>
+			     	</div>	 
+			    </div>
+ 			 </div>
+  		</div>
+  					
+
+	</div>
+
+<!-- End of about me block -->
+
+
+	<div class="over2">
+		
+	</div>
+	<!-- service block starts -->
+	
+	<div class="service" id="iservice">
+		<div class="service-heading">
+			<p>Service provided</p>
+
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+			   	<div class="col">
+			   		<div class="service-item">
+			   			<i class="fas fa-desktop service-icon"></i>
+			      		<h2>Web Design</h2>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			   		</div>
+			   		
+			    </div>
+
+			    <div class="col">
+			   		<div class="service-item">
+			   			<i class="fas fa-icons service-icon"></i>
+			      		<h2>Graphic Design</h2>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			   		</div>
+			   		
+			    </div>
+
+			    <div class="col">
+			   		<div class="service-item">
+			   			<i class="fas fa-mobile service-icon"></i>
+			      		<h2>Mobile App</h2>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			   		</div>
+			   		
+			    </div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- end of service block	 -->
+	
+		<div class="over2">
+		
+	</div>
+
+
+	<div class="port" id="iport">
+		<div>
+			<p class="port-title">My Portfolio</p>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+			   	<div class="col">
+			   		<img onclick="openmodal(1)" class="img-fluid port-img" alt="Responsive image" src="./img/about.jpg" >
+			   	</div>
+
+			   	<div class="col">
+			   		<img onclick="openmodal(2)" class="img-fluid port-img" alt="Responsive image" src="./img/w6.jpg" >
+			   	</div>
+
+			   	<div class="col">
+			   		<img onclick="openmodal(3)" class="img-fluid port-img" alt="Responsive image" src="./img/w2.jpg" >
+			   	</div>
+
+			   	<div class="col">
+			   		<img onclick="openmodal(4)" class="img-fluid port-img" alt="Responsive image" src="./img/w3.jpg" >
+			   	</div>
+			</div>	
+			
+			</div>
+	</div>
+
+	<div class="over2">
+		
+	</div>
+
+	<!-- footer start -->
+
+	<div class="footer">
+		<div>
+			<div class="container-fluid">
+				<div class="row">
+			   		<div class="col">
+			   			<h4>Lets talk about?</h4>
+			   			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			   			im id est laborum.</p>
+			   		</div>	
+
+			   		<div class="col">
+			   			<h4>Services</h4>
+			   			<ul>
+			   				<li>Web Design</li>
+			   				<li>Graphic Design</li>
+			   				<li>Mobile App</li>
+			   			</ul>
+			   		</div>	
+
+			   		<div class="col">
+			   			<h4>Contact Me</h4>
+			   			<ul>
+			   				<li> <i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, 
+			   					<br>San Francisco, California, USA</li>
+			   				<li> <i class="fas fa-phone-alt"></i> +2 392 3929 451</li>
+			   				<li> <i class="fas fa-envelope"></i> sample@me.com</li>
+			   			</ul>
+			   		</div>	
+			</div>
+		</div>
+		<div id ="contact" class="social">
+			<div>
+				<h4>Social</h4>
+			</div>
+			<div>
+				<a href=""> <i id="i1" class="fab fa-facebook s-icon"></i> </a>
+				<a href=""> <i id="i2" class="fab fa-twitter s-icon "></i>  </a>
+				<a href=""> <i id="i3" class="fab fa-instagram s-icon "></i> </a>
+				<a href=""> <i id="i4" class="fab fa-stack-overflow s-icon"></i> </a>
+				<a href=""> <i id="i5" class="fab fa-reddit s-icon"></i> </a>
+			</div>
+			
+			
+		</div>
+		<div class="dev">
+			<p>This Template is made with  <i class="fas fa-heart"></i> by <a href="https://adarshd5099.github.io/">Adarsh D</a></p>
+		</div>
+	</div>
+
+	<!-- footer end -->
+
+
+<!-- portfolio modals -->
+
+
+		<div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">My Work 1</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		         <img class="img-fluid" alt="Responsive image" src="./img/about.jpg">
+		      </div>
+		      <div class="modal-footer">
+		      	<a href="http://www.google.com">Visit Site</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="work2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">My Work 2</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		         <img class="img-fluid" alt="Responsive image" src="./img/w6.jpg">
+		      </div>
+		      <div class="modal-footer">
+
+		      	<a href="http://www.google.com">Visit Site</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="work3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">My Work 3</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		         <img class="img-fluid" alt="Responsive image" src="./img/w2.jpg">
+		      </div>
+		      <div class="modal-footer">
+		      	<a href="http://www.google.com">Visit Site</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="work4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">My Work 4</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		         <img class="img-fluid" alt="Responsive image" src="./img/w3.jpg">
+		      </div>
+		      <div class="modal-footer">
+		      	<a href="http://www.google.com">Visit Site</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+<!-- 		portfolio modals end -->
+
+</body>
+</html>
