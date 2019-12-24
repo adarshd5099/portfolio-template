@@ -2,6 +2,33 @@
 <html>
 <head>
 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+ 
+
 <script
 			  src="https://code.jquery.com/jquery-3.4.1.js"
 			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -19,7 +46,16 @@
 
 
 </head>
-<body>
+<body onload="test();">
+
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+ <script type="text/javascript">
+  // document.getElementById("hideAll").style.display = "block";
+ </script> 
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">	
 
   <a class="navbar-brand" href="#iabout">Hanna Davson</a>
@@ -86,6 +122,7 @@
 	</div>
 
 <!-- End of about me block -->
+
 
 
 	<div class="over2">
@@ -307,8 +344,9 @@
 		  </div>
 		</div>
 
-
+</div>
 <!-- 		portfolio modals end -->
-
 </body>
+
+
 </html>
