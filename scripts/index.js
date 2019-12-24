@@ -30,21 +30,36 @@ function openmodal(n){
 
 
 function test(){
-	function loaded() {
- 	  document.getElementById("hideAll").style.display = "none";
-	}
+	// function loaded() {
+ // 	  document.getElementById("hideAll").style.display = "none";
+	// }
 	var img = document.querySelector('img')
-	// img.onload = loaded();
+	img.onload = loaded();
 
 
 	// if (img.complete) {
  //  		loaded()
 	// }
 
-	if( img.complete && img.naturalHeight !== 0 ){
-		document.getElementById("loader").style.display = "none";
-  		document.getElementById("myDiv").style.display = "block";
-	}
+	// if( img.complete && img.naturalHeight !== 0 ){
+	// 	loaded();
+	// }
 }
+
+
+    function rendered() {
+        //Render complete
+        document.getElementById("loader").style.display = "none";
+  		document.getElementById("myDiv").style.display = "block";
+    }
+    
+    function startRender() {
+        //Rendering start
+        requestAnimationFrame(rendered);
+    }
+
+    function loaded()  {
+        requestAnimationFrame(startRender);
+    }
 
 
