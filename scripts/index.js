@@ -23,3 +23,28 @@ function openmodal(n){
 	
 }
 
+
+
+
+
+
+
+function test(){
+	function loaded() {
+ 	  document.getElementById("hideAll").style.display = "none";
+	}
+	var img = document.querySelector('img')
+	// img.onload = loaded();
+
+
+	// if (img.complete) {
+ //  		loaded()
+	// }
+
+	if( img.complete && img.naturalHeight !== 0 ){
+		document.getElementById("loader").style.display = "none";
+  		document.getElementById("myDiv").style.display = "block";
+	}
+}
+
+
