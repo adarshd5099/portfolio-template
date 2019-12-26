@@ -113,7 +113,7 @@ html {
 .over2{
   background-repeat:no-repeat;
   background-image: url(../img/4.jpg);
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   display: flex;
   align-items: center;
