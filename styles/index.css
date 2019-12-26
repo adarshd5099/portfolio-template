@@ -20,7 +20,7 @@ html {
 .over{
   background-repeat:no-repeat;
   background-image: url(../img/3.jpg);
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
 }
 
